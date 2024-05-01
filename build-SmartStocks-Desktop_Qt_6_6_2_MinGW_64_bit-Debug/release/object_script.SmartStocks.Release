@@ -1,0 +1,11 @@
+release/account.o
+release/balance.o
+release/main.o
+release/mainwindow.o
+release/profile.o
+release/registration.o
+release/moc_account.o
+release/moc_balance.o
+release/moc_mainwindow.o
+release/moc_profile.o
+release/moc_registration.o
