@@ -2,6 +2,7 @@
 #include "ui_balance.h"
 #include "account.h"
 #include "profile.h"
+#include "tests.h"
 
 balance::balance(QWidget *parent)
     : QWidget(parent)
@@ -26,5 +27,12 @@ void balance::on_ProfileBtn_clicked()
 {
     profile *profileWindow = new profile(this);
     profileWindow->show();
+}
+
+
+void balance::on_TestsBtn_clicked()
+{
+    tests *testsWindow = new tests(this);
+    testsWindow->show();
 }
 

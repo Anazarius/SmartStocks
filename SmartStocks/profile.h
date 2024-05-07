@@ -20,6 +20,8 @@ private slots:
 
     void on_BalanceBtn_clicked();
 
+    void on_TestsBtn_clicked();
+
 private:
     Ui::profile *ui;
 };

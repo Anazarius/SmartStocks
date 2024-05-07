@@ -14,21 +14,24 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     profile.cpp \
-    registration.cpp
+    registration.cpp \
+    tests.cpp
 
 HEADERS += \
     account.h \
     balance.h \
     mainwindow.h \
     profile.h \
-    registration.h
+    registration.h \
+    tests.h
 
 FORMS += \
     account.ui \
     balance.ui \
     mainwindow.ui \
     profile.ui \
-    registration.ui
+    registration.ui \
+    tests.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

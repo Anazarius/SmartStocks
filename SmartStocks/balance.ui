@@ -118,7 +118,7 @@ border-radius:10px;</string>
      <x>0</x>
      <y>50</y>
      <width>800</width>
-     <height>20</height>
+     <height>15</height>
     </rect>
    </property>
    <property name="lineWidth">
